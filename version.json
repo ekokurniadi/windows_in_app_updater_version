@@ -1,0 +1,10 @@
+{
+    "name":"Flutter Windows In App Updater",
+    "version":0.1,
+    "change_log":[
+        "Update bla bla bla",
+        "Fix bla bla bla",
+        "New Feature bla bla bla"
+    ],
+    "installer_path":"installer/windows/my_setup.exe"
+}
