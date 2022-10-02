@@ -4,7 +4,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{183FC4C8-7C69-40DE-BD50-EEA0E42563C4}
+AppId={{AE319ED1-CE1D-405C-B388-B013161375A6}
 AppName=my_setup
 AppVersion=1.0
 ;AppVerName=my_setup 1.0
@@ -16,9 +16,9 @@ DefaultDirName={autopf}\my_setup
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Users\Lenovo\Documents\build_windows
+OutputDir=C:\Users\Lenovo\Downloads
 OutputBaseFilename=mysetup
-SetupIconFile=C:\Users\Lenovo\Downloads\ic_launcher.ico
+SetupIconFile=C:\Users\Lenovo\Downloads\invitation.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -31,8 +31,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "C:\Users\Lenovo\Documents\EKOKURNIADI\FLUTTER\windows_in_app_updater\build\windows\runner\Release\windows_in_app_updater.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Lenovo\Documents\EKOKURNIADI\FLUTTER\windows_in_app_updater\build\windows\runner\Release\windows_in_app_updater.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Lenovo\Documents\EKOKURNIADI\FLUTTER\windows_in_app_updater\build\windows\runner\Release\flutter_windows.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Lenovo\Documents\EKOKURNIADI\FLUTTER\windows_in_app_updater\build\windows\runner\Release\windows_in_app_updater.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Users\Lenovo\Documents\EKOKURNIADI\FLUTTER\windows_in_app_updater\build\windows\runner\Release\data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
