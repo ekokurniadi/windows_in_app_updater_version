@@ -6,5 +6,5 @@
         "Fix bla bla bla",
         "New Feature bla bla bla"
     ],
-    "installer_path":"installer/windows/my_setup.exe"
+    "installer_path":"installer/windows/mysetup.exe"
 }
